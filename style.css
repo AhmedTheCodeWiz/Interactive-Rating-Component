@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Overpass';
+    src: url(fonts/Overpass-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #121417;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+    background: radial-gradient(at top, #232a34, #171e28);
+}
+.card-container{
+    padding: 2rem;
+}
+.hidden{
+    display: none;
+}
+.starball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background-color: #262F35;
+    margin-bottom: 1.5rem
+}
+.title{
+    color: white;
+    font-size: 28px;
+    font-weight: 550;
+    margin-bottom: 1.5rem;
+}
+.descript{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: #7f8690;
+}
+.num-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.num-rating span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717984;
+    width: 50px;
+    height: 50px;
+    background-color: #262F35;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.num-rating span:hover{
+    cursor:pointer;
+    color: white;
+    background-color: #7f8690;
+}
+.num-rating .checked{
+    background-color: #FC7614 !important;
+    color: white;
+}
+.submit{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #FC7614;
+    height: 46px;
+    border-radius: 50px;
+}
+.submit:hover{
+    color: #FC7614;
+    background-color: white;
+}
+
+.card-container-thanks{
+    display: block;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-section{
+    display: block;
+    text-align: center;
+}
+.selected-container{
+    color: #FC7614;
+    background-color: #232a34;
+    width: fit-content;
+    margin: 1rem auto;
+    font-size: 14px;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+.thank-section h2{
+    margin-top: 2rem;
+}
